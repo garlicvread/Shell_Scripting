@@ -12,7 +12,7 @@ $ cd ex01
 ```
 <br>
 
-현재 디렉토리에 어떤 파일 또는 디렉토리가이 있는지 `ls` 명령어로 확인합니다.<br>
+현재 디렉토리에 어떤 파일 또는 디렉토리가 있는지 `ls` 명령어로 확인합니다.<br>
 Check what files or directories are in the current directory using the `ls` command.
 
 ```bash
@@ -68,7 +68,7 @@ DESCRIPTION
 ```
 <br>
 
-`cat` 명령의 매뉴얼을 열면 이 명령이 *"파일을 연결하고 표준 출력으로 인쇄"*하기 위한 것임을 알 수 있습니다.<br>
+`cat` 명령의 매뉴얼을 열면 이 명령이 *"파일을 연결하고 표준 출력으로 인쇄"* 하기 위한 것임을 알 수 있습니다.<br>
 When you open the manual of the `cat` command, you can find that this command *"concatenate files and print on the standard output"*.<br>
 
 즉, `cat` 명령은 대상 파일(이 경우 **a**)에 담겨 있는 모든 내용을 화면에 나타내 줍니다.<br>
