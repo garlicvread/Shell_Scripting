@@ -23,12 +23,19 @@ total 1
 -r--r-xr-x  1 login wheel  40 Jun 1 12:34 createdFile
 $
 ```
+<br>
 
 * 파일을 만들고 파일 속성을 변경했으면 `tar` 명령을 사용하여 `.tar` 파일로 변환하시오.<br>
-  Once you have created your file and changed the attributes of the file, turn it into a `.tar` file using the `tar` command.
+  Once you have created your file and changed the attributes of the file, turn it into a `.tar` file using the `tar` command.<br>
 
 > Notes:
 > 1. 파일의 타임스탬프에 12:34의 시간 대신 연도가 표시되어도 무방함.<br>
      A year will be accepted instead of the time 12:34, on the timestamp of the file.<br>
 > 2. UNIX 기반 시스템에서 파일을 생성하는 방법을 모르는 경우 이 [문서](https://www.quora.com/How-do-I-create-a-file-in-a-directory-in-Unix)를 참조할 것.<br>
      If you find yourself without knowing how to create a file in UNIX-based systems, you can read this [article](https://www.quora.com/How-do-I-create-a-file-in-a-directory-in-Unix).
+
+<br>
+
+---
+* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/Answer)에서 설명을 확인할 수 있습니다.<br>
+  You can read the explanation [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/Answer).

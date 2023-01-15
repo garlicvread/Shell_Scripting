@@ -1,4 +1,4 @@
-### Answer for Exercise 01 : A - Basic File Creation
+### Answer for Exercise 01: Basic File Creation
 
 터미널에서 직접 파일을 만들려면 `touch` 명령어를 사용합니다.<br>
 To create a file directly in the terminal, use the `touch` command.
@@ -125,5 +125,5 @@ Then you will see that a newline character **$** is automatically added after th
 
 > 참고: 개행 문자 **$** 는 터미널 종류와 운영체제(OS)에 따라 다를 수 있습니다.<br>
 > NOTE: The newline character **$** may differ depending on the type of terminal and OS(Operating System).<br>
-
-* [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/File)
+---
+### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/File)
