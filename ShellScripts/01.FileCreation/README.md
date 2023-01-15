@@ -1,5 +1,11 @@
 # 01. Basic File Creation
 
+| Exercise 01              |
+|--------------------------|
+| Files to create : a      |
+| Allowed functions : None |
+| Notes : n/a              |
+
 여기서는 기본적인 파일의 생성 방법에 대해 알아봅니다.<br>
 Here, you will learn basic how-to-dos to create a file.<br>
 
