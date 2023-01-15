@@ -24,4 +24,4 @@ Although not all commands and usage examples are included, we will focus on shel
 *이 저장소 자체의 콘텐츠는 Creative Commons Attribution 3.0 라이선스에 따라 라이선스가 부여되며 해당 콘텐츠의 형식을 지정하고 표시하는 데 사용되는 기본 소스 코드는 MIT 라이선스에 따라 라이선스가 부여됩니다.*<br>
 *The content of this repository itself is licensed under the Creative Commons Attribution 3.0 license and the underlying source code used to format and display that content is licensed under the MIT license.*
 
-Copyright (c) 2022 Kim Raymond
+Copyright (c) 2023 Kim Raymond
