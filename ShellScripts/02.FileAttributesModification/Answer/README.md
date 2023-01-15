@@ -224,6 +224,81 @@ $ stat createdFile
 > Modify the kernel to add an interface to change the `ctime`.<br>
 > 3. `debugfs` 명령 등을 사용하여 디스크 이미지에 직접 접근해서 디스크의 비트를 조정합니다(파일 시스템이 마운트된 동안 수행하면 안 됨).<br>
 > Use `debugfs` or similar command to access the disk image directly and adjust the bits on the disk (do not do this while the file system is mounted).
+
 <br>
+
+---
+#### 5. 파일 tar 하기(Compressing files with `tar`)
+
+`tar` 는 `tape archiver`의 약자로, 과거 테이프가 저장장치로 사용되던 시절, 자기 테이프에 파일을 백업하기 위해 만들어진 명령입니다.<br>
+The `tar` command is an abbreviation of `tape archiver`, and it was created to back up files to magnetic tape in the days when tape was used as a storage device.<br>
+
+`tar` 명령은 파일을 압축하거나 압축을 풀어주는 명령입니다.<br>
+The `tar` command compresses or decompresses files.<br>
+
+조금 더 정확히 말하자면, `tar` 명령은 파일을 하나의 파일로 묶어주는 명령으로, `gzip`이나 `bzip2` 등의 압축 프로그램과 함께 사용할 수도 있습니다.<br>
+To be more precise, the `tar` command groups files into a single file, and even can be used with `gzip` or `bzip2` compression programs.<br>
+
+사용법은 간단해서, 다음과 같이 `tar` 명령 다음 아카이빙할 파일을 나열하면 됩니다.<br>
+The usage is simple, so you can just list the files you want to archive after the `tar` command.<br>
+
+> 예시 (Example)
+```
+$ tar -cf archive.tar file1 file2 file3 ...
+```
+<br>
+
+`tar` 명령의 옵션(flags)은 다음과 같습니다.<br>
+The options(flags) of the `tar` command are as follows.<br>
+
+| 필수 옵션(Required Flags) | 설명(Description)                                                                                                                                                                                                                                                                                                                                                                        |
+|:---------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         `-c`          | 아카이빙할 파일을 하나의 파일로 묶어줌<br>Groups files to be archived into a single file.                                                                                                                                                                                                                                                                                                               |
+|         `-f`          | 아카이빙할 파일을 지정함<br>Specifies the file to be archived.                                                                                                                                                                                                                                                                                                                                    |
+|         `-t`          | 아카이빙된 파일의 목록을 보여줌<br>Shows the list of archived files.                                                                                                                                                                                                                                                                                                                                 |
+|         `-u`          | 파일이 아카이브에 없거나, 아카이브에 기록된 이후 수정된 경우에 한해 한 개 이상의 파일 매개변수를 아카이브 맨 끝에 추가함<br>Adds the files specified by one or more File parameters to the end of the archive only if the files are not in the archive already, or if they have been modified since being written to the archive.<br><br>~~큰 의미는 없지만~~ 실제 테이프에 저장할 때는 사용할 수 없다<br>You cannot use this flag when actually storing to tape. |
+|         `-U`          | 파일 및 디렉토리의 속성(attributes)을 아카이빙하거나 추출할 수 있게 함<br>Allows archival and extraction of Extended Attributes<br><br>이 속성(Extended attributes)에는 접근 제어 목록(ACL; Access control list)가 포함된다.<br>The Extended Attributes include Access control list (ACL) also.                                                                                                                                 |
+|         `-x`          | 아카이빙된 파일을 풀어줌<br>Decompresses the archived file.                                                                                                                                                                                                                                                                                                                                       |
+
+<br>
+
+일반적으로 `tar` 명령의 기본 옵션은 -cf 옵션입니다.<br>
+The default option of the `tar` command is the -cf option.<br>
+
+즉, `-c` 옵션으로 아카이빙할 파일 또는 디렉토리를을 하나의 파일로 묶겠다고 선언하고, `-f` 옵션으로 아카이빙할 파일을 지정하는 것입니다.<br>
+That is, it declares that it will group the files or directories to be archived into a single file with the `-c` option, and specifies the file to be archived with the `-f` option.<br>
+
+그러나 `-cf` 옵션만으로 아카이빙하는 경우, 아카이빙의 대상이 되는 파일 또는 디렉토리의 속성이 유지되지 않습니다.<br>
+However, if you archive only with the `-cf` option, the attributes of the files or directories to be archived are not preserved.<br>
+
+이때 중요한 것이 위 표에 없는 `-p` 옵션입니다.<br>
+At this time, the important thing is the `-p` option that is not in the table above.<br>
+
+`-p` 옵션은 옵셔널 옵션으로, 아카이빙할 때 또는 아카이브를 추출할 때 파일 또는 디렉토리의 속성을 유지하겠다는 옵션입니다.<br>
+The `-p` option is an optional option that preserves the attributes of files or directories when archiving or extracting the archive.<br>
+
+따라서, 파일 또는 디렉토리가 갖고 있던 속성을 유지하면서 아카이빙하려면 `-cf` 옵션에 `-p` 옵션을 추가해야 합니다.<br>
+Therefore, if you want to archive while preserving the attributes of the files or directories, you must add the `-p` option to the `-cf` option.<br>
+
+`tar`로 아카이브에서 파일과 디렉토리를 추출할 때는 `-x` 옵션을 사용합니다.<br>
+When extracting files and directories from an archive with `tar`, use the `-x` option.<br>
+
+즉, `tar` 명령의 추출시 기본 옵션은 `-xf`입니다.<br>
+The default option for extracting with the `tar` command is `-xf`.<br>
+
+아카이브에서 추출할 때 파일과 디렉토리의 속성을 유지한 채 추출하려면 아카이빙할 떄와 마찬가지로 `-p` 옵션을 추가하면 됩니다.<br>
+To extract the attributes of the files and directories while extracting from the archive, just add the `-p` option as you did when archiving.<br>
+
+그 외에, 아카이빙/추출 과정에서 대상 파일 및 디렉토리를 표시하기 위한 `-v` 옵션도 자주 사용됩니다.<br>
+In addition, the `-v` option is often used to display the target files and directories during archiving / extraction.<br>
+
+그래서 보통 사용하는 옵션 조합은 아카이빙할 때라면 `-cvpf`, 추출할 때라면 `-xvpf`입니다.<br>
+So the usual option combination is `-cvpf` when archiving and `-xvpf` when extracting.<br>
+
+> 참고: 자세한 옵션은 `man tar` 명령으로 확인할 수도 있고, [여기](https://www.ibm.com/docs/en/aix/7.1?topic=t-tar-command)에서 확인할 수도 있습니다.<br>
+> NOTE: You can also check the options in the `man tar` command, or you can check it [here](https://www.ibm.com/docs/en/aix/7.1?topic=t-tar-command).<br>
+
+<br>
+
 ---
 ### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/File)

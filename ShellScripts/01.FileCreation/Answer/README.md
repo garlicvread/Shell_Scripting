@@ -1,7 +1,13 @@
 ### Answer for Exercise 01: Basic File Creation
 
-터미널에서 직접 파일을 만들려면 `touch` 명령어를 사용합니다.<br>
+터미널에서 직접 파일을 만들려면 `touch` 명령을 사용합니다.<br>
 To create a file directly in the terminal, use the `touch` command.
+
+> 참고: `명령`이라고 하였고 앞으로도 계속 명령이라고 하겠지만, 실제로 각 명령은 해당 기능을 수행하기 위한 개별 프로그램입니다.<br>
+> Note: I have used the word `command` and will continue to do so, but each command is actually an individual program that performs a specific function.
+>
+> 즉, `명령`을 내리는 과정은 `프로그램`을 실행(execute)하는 과정입니다.<br>
+> In other words, the process of issuing a `command` is the process of executing a `program`.
 
 먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는 디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
 First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01`, then use the `cd` command to move to the `ex01` directory.
@@ -83,8 +89,8 @@ Now, let's check the size of the file you've created.
 파일의 크기를 보려면 `ls -l` 명령을 실행해 보세요.<br>
 Try running the `ls -l` command to see the size of the file.<br>
 
-`-l` 의 의미는 **long** 이며, 이 옵션은 파일의 상세한 정보를 보고 싶을 때 사용합니다.<br>
-The meaning of `-l` is **long**, and this option is used when you want to see detailed information about the file.<br>
+`-l` 의 의미는 **long** 이며, 이 옵션(정식 명칭은 flag)은 파일의 상세한 정보를 보고 싶을 때 사용합니다.<br>
+The meaning of `-l` is **long**, and this option (the formal name is `flag`) is used when you want to see detailed information about the file.<br>
 
 그러면 다음과 같은 화면이 보일 거에요.<br>
 Then you can see your screen something similar with the following.<br>
@@ -96,8 +102,8 @@ total 8
 ```
 <br>
 
-그럼 문자 **A**를 파일 **a** 에 저장해 봅시다.<br>
-So let's save the character **A** to the file **a**.<br>
+그럼 아무 텍스트 에디터에서 파일 a를 열고, 문자 **A**를 파일 **a** 에 저장해 봅시다.<br>
+Then, open the file **a** in any text editor and save the letter **A** in the file **a**.<br>
 
 다시 `ls -l` 명령으로 파일의 크기를 확인해 보면, 글자 **A** 하나, 즉 1 바이트 크기의 데이터를 넣었을 뿐인데 파일의 크기가 2 바이트가 된 것을 볼 수 있습니다.<br>
 If you check the size of the file with the `ls -l` command once again, you will see that the size of the file has become 2 bytes even though you have only inserted one letter **A**, that is, 1 byte of data.<br>
