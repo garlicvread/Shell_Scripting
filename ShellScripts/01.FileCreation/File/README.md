@@ -1,6 +1,8 @@
 ## Exercise 01 : A - Basic File Creation
 
-## File attributes
+---
+
+## Basic Information
 
 |              Exercise 01              |
 |---------------------------------------|
@@ -9,6 +11,8 @@
 | Notes : n/a							|
 
 <br>
+
+---
 
 ### TODO
 
@@ -20,6 +24,9 @@ $ cat a
 A
 $
 ```
+<br>
+
+---
 
 * [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/Answer/README.md)에서 설명을 확인할 수 있습니다.<br>
   You can read the explanation [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/Answer/README.md).

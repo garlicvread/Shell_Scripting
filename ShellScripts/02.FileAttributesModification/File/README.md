@@ -1,12 +1,18 @@
 # Ex02: Basic File modification
 
-## File attributes
+---
+
+## Basic Information
 
 |              Exercise 02              |
 |---------------------------------------|
 | Files to create : createdFile.tar     |
 | Allowed functions : None              |
 | Notes : n/a                           |
+
+<br>
+
+---
 
 ### TODO
 
