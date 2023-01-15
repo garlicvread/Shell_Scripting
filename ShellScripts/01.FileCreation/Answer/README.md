@@ -3,8 +3,8 @@
 터미널에서 직접 파일을 만들려면 `touch` 명령어를 사용합니다.<br>
 To create a file directly in the terminal, use the `touch` command.
 
-먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
-First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01` first, and use the `cd` command to move to the `ex01` directory.
+먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는 디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
+First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01`, then use the `cd` command to move to the `ex01` directory.
 
 ```bash
 $ mkdir ex01
