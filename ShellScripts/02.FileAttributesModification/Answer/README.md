@@ -47,7 +47,7 @@ r means read permission, w means write permission, and x means execute permissio
 > 참고: 실행 권한이란 읽기, 쓰기 외에 해당 파일을 실행할 수 있는 권한을 의미합니다.<br>
 > NOTE: The execution permission means that you have permission to execute the file in addition to reading and writing.<br>
 > 
-> 이때 실행의 의미가 이해하기 어려울 수 있는데, 우리가 파일 내부에 쓸 수 있는 것은 단순한 문자나 숫자뿐 아니라 어떤 프로그램도 적을 수 있다는 점을 생각해 보시는 것이 좋습니다.<br>
+> 이때 실행의 의미가 이해하기 어려울 수 있는데, 우리가 파일 내부에 쓸 수 있는 것은 단순한 문자나 숫자뿐 아니라 어떤 프로그램일 수도 있다는 점을 생각해 보시는 것이 좋습니다.<br>
 It may be difficult to understand the meaning of execution, but it is better to think about the fact that we can write not only simple characters and numbers but also programs inside the file.<br>
 >
 > 즉, 실행 권한이란 파일 내부에 적혀 있는 여러 명령어, 쉽게 말해 프로그램으로써의 파일을 실행할 수 있는 권한을 의미합니다.<br>
@@ -66,8 +66,8 @@ Each permission can be represented in binary.<br>
 ```
 <br>
 
-r 권한은 2진법의 2^2 자리에 1을, w 권한은 2^1 자리에 1을, x 권한은 2^0 자리에 1을 더한 값을 가집니다.<br>
-The r permission has a value of 1 in the 2^2 place of the binary number, the w permission has a value of 1 in the 2^1 place, and the x permission has a value of 1 in the 2^0 place.<br>
+r 권한은 2진법의 $2^2$ 자리에 1을, w 권한은 $2^1$ 자리에 1을, x 권한은 $2^0$ 자리에 1을 더한 값을 가집니다.<br>
+The r permission has a value of 1 in the $2^2$ place of the binary number, the w permission has a value of 1 in the $2^1$ place, and the x permission has a value of 1 in the $2^0$ place.<br>
 
 예컨대 rwx 권한은 $2^2 + 2^1 + 2^0 = 7$ 이므로 2진법으로 111이 됩니다.<br>
 For example, rwx permission is $2^2 + 2^1 + 2^0 = 7$, so it becomes 111 in binary.<br>
@@ -209,8 +209,8 @@ $ stat createdFile
 ```
 <br>
 
-> 참고: 일반적인 방법으로는 `ctime`을 변경할 수 없습니다. 이것은 의도된 것입니다.<br>
-> NOTE: We cannot change the `ctime` by ordinary means. This is something designed. 
+> 참고: 일반적인 방법으로는 `ctime`을 변경할 수 없는데, 이것은 의도된 것입니다.<br>
+> NOTE: We cannot change the `ctime` by ordinary means, and this is something designed. 
 >
 >`ctime`은 파일의 메타데이터를 변경할 때 항상 최신으로 업데이트되며, 다른 `ctime`을 적용할 방법이 없습니다.<br>
 > `ctime` is always updated to the current when you change any of the file's metadata, and there is no way to apply a different `ctime`.<br>
