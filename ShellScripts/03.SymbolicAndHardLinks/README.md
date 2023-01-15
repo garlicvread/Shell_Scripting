@@ -56,11 +56,11 @@ On the other hand, a symbolic link is a link to another name in the file system.
 요컨대, 심볼릭 링크는 윈도우에서의 바로 가기와 비슷하다고 볼 수 있습니다.<br>
 In other words, a symbolic link can be considered as a shortcut in Windows system.<br>
 
-> 참고: 하드 링크는 동일한 파일 시스템 내에서만 유효합니다.<br>
-> Note: Hard links are only valid within the same file system.<br><br>
+> 참고: 하드 링크는 파일끼리만 생성할 수 있습니다.<br>
+> Note: Hard links can only be created between files.<br>
 >
-> 심볼릭 링크는 단순히 다른 파일의 이름일 뿐이기 때문에 다른 파일 시스템에서도 유효할 수 있습니다.<br>
-> A symbolic link is simply another name for a file, so it can span file systems.<br>
+> 그러나 심볼릭 링크는 단순히 다른 파일의 이름일 뿐이기 때문에 디렉토리를 대상으로도 생성할 수 있습니다.<br>
+> However, symbolic links can be created on directories as well, because they are simply another name for a target.<br>
 
 <br>
 

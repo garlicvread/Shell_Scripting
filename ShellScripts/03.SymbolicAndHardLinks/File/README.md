@@ -10,38 +10,35 @@
 | Allowed functions : None				   |
 | Notes : n/a							             |
 
+<br>
+
 ---
 
 ### TODO
 
-* Create the following files and directories. Do what’s necessary so that when
-  you use the `ls -l` command in your directory, the output will looks like this :
+* `ls -l` 명령으로 현재 디렉토리를 확인했을 때, 다음과 같은 출력이 되도록 파일 또는 디렉토리를 만드시오.<br>
+    Create files or directories so that the following output is displayed when you check the current directory using the `ls -l` command.<br>
+
+> 예시 (Example)
 ```
 $ ls -l
-total 42
-drwx--xr-x 2 login wheel XX	Jun 1 20:47 test0
--rwx--xr-- 1 login wheel 4	Jun 1 21:46 test1
-dr-x---r-- 2 login wheel XX	Jun 1 22:45 test2
--r-----r-- 2 login wheel 1	Jun 1 23:44 test3
--rw-r----x 1 login wheel 2	Jun 1 23:43 test4
--r-----r-- 2 login wheel 1	Jun 1 23:44 test5
-lrwxr-xr-x 1 login wheel 5	Jun 1 22:20 test6 -> test0
-$
+total 16
+drwxr-xr-x  2 raymond  staff   64 Jan  1 12:34 excercise03_00
+-rw-r--r--@ 2 raymond  staff  120 Mar  3  2023 excercise03_01
+lrwxr-xr-x  1 raymond  staff   14 Jan 15 21:17 excercise03_02 -> excercise03_00
+-rw-r--r--@ 2 raymond  staff  120 Mar  3  2023 excercise03_03
+lrwxrwxrwx  1 raymond  staff   14 Jan 15 21:13 excercise03_04 -> excercise03_03
 ```
-* Once you’ve done that, run `$ tar -cf exo2.tar *`
-  to create the file to be submitted.
+<br>
 
-> Notes:
-> 1. "login" and "wheel" will be respectively replaced by your login and
-     your group.
-> 2. You won’t be able to have the same "total 42" line as shown in the
-     example.
-> 3. Don’t worry about what you’ve got instead of "XX".
-> 4. A year will be accepted instead of the time, on the timestamp of the
-     files.
-> 5. If you find yourself without knowing how to create a folder in UNIX based
-     systems I can give you a short link
-     [here](http://mally.stanford.edu/~sr/computing/basic-unix.html)
+* 위와 같이 파일 또는 디렉토리를 생성했다면, `tar` 명령으로 `links.tar` 파일을 생성하시오.<br>
+  If you have created files or directories as above, create the `links.tar` file using the `tar` command.<br><br>
 
-#### Find the answer
-[here](https://github.com/idevHive/42/blob/master/Piscines/C/Day00/answers/ex02/README.md)
+* 이 때, 파일 및 디렉토리의 권한을 유지하시오.<br>
+  In this case, maintain the permissions of the files and directories.
+
+<br>
+
+---
+* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Answer)에서 설명을 확인할 수 있습니다.<br>
+  You can read the explanation [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Answer).
