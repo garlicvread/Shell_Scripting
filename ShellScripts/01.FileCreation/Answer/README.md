@@ -1,7 +1,41 @@
 ### Answer for Exercise 01 : A - Basic File Creation
 
-`cat` 명령어의 매뉴얼을 확인해 봅시다.<br>
-Let's check out the manual for the `cat` command.<br>
+터미널에서 직접 파일을 만들려면 `touch` 명령어를 사용합니다.<br>
+To create a file directly in the terminal, use the `touch` command.
+
+먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
+First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01` first, and use the `cd` command to move to the `ex01` directory.
+
+```bash
+$ mkdir ex01
+$ cd ex01
+```
+<br>
+
+현재 디렉토리에 어떤 파일 또는 디렉토리가이 있는지 `ls` 명령어로 확인합니다.<br>
+Check what files or directories are in the current directory using the `ls` command.
+
+```bash
+$ ls
+```
+<br>
+
+터미널 창에 아무 결과물이 출력되지 않으면 현재 디렉토리에 아무 파일이 없다는 것을 의미합니다.<br>
+If nothing is displayed in the terminal window, it means that there are no files in the current directory.<br>
+
+이제 `touch` 명령어를 사용하여 `a`라는 파일을 만들어 봅시다.<br>
+Now, let's use the `touch` command to create a file called `a`.<br>
+
+```bash
+$ touch a
+```
+<br>
+
+`cat` 명령어를 사용하여 `a`라는 파일의 내용을 확인합니다.<br>
+Use the `cat` command to check the contents of the `a` file.<br>
+
+먼저 `cat` 명령어의 매뉴얼을 확인해 봅시다.<br>
+First, let's check out the manual for the `cat` command.<br>
 
 ```
 man cat
@@ -48,6 +82,9 @@ Now, let's check the size of the file you've created.
 
 파일의 크기를 보려면 `ls -l` 명령을 실행해 보세요.<br>
 Try running the `ls -l` command to see the size of the file.<br>
+
+`-l` 의 의미는 **long** 이며, 이 옵션은 파일의 상세한 정보를 보고 싶을 때 사용합니다.<br>
+The meaning of `-l` is **long**, and this option is used when you want to see detailed information about the file.<br>
 
 그러면 다음과 같은 화면이 보일 거에요.<br>
 Then you can see your screen something similar with the following.<br>
