@@ -1,4 +1,16 @@
-# 02. Basic File Modification
+# 02. File Attributes Modification
+
+## Basic Information
+
+|              Exercise 02              |
+|---------------------------------------|
+| Files to create : createdFile.tar     |
+| Allowed functions : None              |
+| Notes : n/a                           |
+
+<br>
+
+---
 
 여기서는 기본적인 파일의 속성 변경 방법에 대해 알아봅니다.<br>
 Here, you will learn basic how-to-dos to change properties of a file.<br>

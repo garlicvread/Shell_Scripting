@@ -1,4 +1,4 @@
-# 01. Basic File Creation
+# 01. File Creation
 
 | Exercise 01              |
 |--------------------------|
