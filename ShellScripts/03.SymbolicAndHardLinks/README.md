@@ -64,11 +64,11 @@ In other words, a symbolic link can be considered as a shortcut in Windows syste
 > 참고: 하드 링크는 파일끼리만 생성할 수 있습니다.<br>
 > Note: Hard links can only be created between files.<br>
 >
-> 그러나 심볼릭 링크는 단순히 다른 파일의 이름일 뿐이기 때문에 디렉토리를 대상으로도 생성할 수 있습니다.<br>
+> 그러나 심볼릭 링크는 단순히 다른 대상의 이름일 뿐이기 때문에 디렉토리를 대상으로도 생성할 수 있습니다.<br>
 > However, symbolic links can be created on directories as well, because they are simply another name for a target.<br>
 
 <br>
 
 ---
-* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File)에서 `심볼릭 링크와 하드 링크 연습`의 내용을 확인할 수 있습니다.<br>
-  You can read the content of `Excercise 03 - Symbolic(soft) Links and Hard Links` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File).
+* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Files)에서 `심볼릭 링크와 하드 링크 연습`의 내용을 확인할 수 있습니다.<br>
+  You can read the content of `Excercise 03 - Symbolic(soft) Links and Hard Links` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Files).
