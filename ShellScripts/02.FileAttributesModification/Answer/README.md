@@ -155,6 +155,8 @@ sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf$
 `cat -e` 명령으로 파일 끝에 개행 문자 `$`가 추가되었음을 확인할 수 있습니다.<br>
 You can see that the newline character `$` is added at the end of the file using the `cat -e` command.<br>
 
+<br>
+
 ---
 #### 4. 타임스탬프 바꾸기(Change the timestamp)
 
