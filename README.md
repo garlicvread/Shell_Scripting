@@ -2,12 +2,15 @@
 
 ![Shell Programming Logo](Files/Resources/Images/shell-programming-logo.png)
 
----
+<br>
 
+---
 ## Table of Contents
 
 * [Shell Commands](ShellScripts)
 * [Cheat Sheets](Files/Cheatsheets)
+
+<br>
 
 ---
 
@@ -17,6 +20,8 @@ This repository contains examples and explanations related to shell scripts or s
 <br>
 모든 명령과 활용례가 담겨 있는 것은 아니나, 실제로 유용하게 사용할 수 있는 shell command 위주로 설명할 예정입니다.<br>
 Although not all commands and usage examples are included, we will focus on shell commands that are actually useful.<br>
+
+<br>
 
 ---
 
