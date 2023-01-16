@@ -13,7 +13,9 @@
 ---
 ### TO-DO
 
-#### 1. `diff` 명령과 `patch` 명령
+<br>
+
+#### 1. `diff` 명령과 `patch` 명령 (`diff` Command and `patch` Command)
 
 여기서는 `diff` 명령과 `patch` 명령의 사용법을 알아보겠습니다.<br>
 Now, we will learn how to use `diff` command and `patch` command.

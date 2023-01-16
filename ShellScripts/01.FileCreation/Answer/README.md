@@ -1,9 +1,14 @@
 ### Answer for Exercise 01: Basic File Creation
 
+<br>
+
+---
+#### 1. `touch` 명령
+
 터미널에서 직접 파일을 만들려면 `touch` 명령을 사용합니다.<br>
 To create a file directly in the terminal, use the `touch` command.
 
-> 참고: `명령`이라고 하였고 앞으로도 계속 명령이라고 하겠지만, 실제로 각 명령은 해당 기능을 수행하기 위한 개별 프로그램입니다.<br>
+> 참고: `명령`이라고 하였고 앞으로도 계속 명령이라고 하겠지만, 명령이란 실제로는 해당 기능을 수행하기 위한 개별 프로그램입니다.<br>
 > Note: I have used the word `command` and will continue to do so, but each command is actually an individual program that performs a specific function.
 >
 > 즉, `명령`을 내리는 과정은 `프로그램`을 실행(execute)하는 과정입니다.<br>
@@ -11,6 +16,9 @@ To create a file directly in the terminal, use the `touch` command.
 
 먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는 디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
 First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01`, then use the `cd` command to move to the `ex01` directory.
+
+`cd` 명령은 `change directory`의 약자로, 디렉토리를 변경하는 명령입니다.<br>
+The `cd` command is an abbreviation for `change directory` and is a command to change directories.
 
 ```
 $ mkdir ex01
@@ -80,8 +88,8 @@ When you open the manual of the `cat` command, you can find that this command *"
 즉, `cat` 명령은 대상 파일(이 경우 **a**)에 담겨 있는 모든 내용을 화면에 나타내 줍니다.<br>
 In other words, the `cat` command will print whatever you put inside the target file, which is **a** in this case.<br>
 
-문자 A를 반환하려면 간단히 **a** 파일에 문자 **A**를 넣고, 저장하면 됩니다.<br>
-To return the letter A, simply type the letter **A** into the **a** file and save it.<br>
+따라서 `cat` 명령을 사용하여 문자 A를 반환하려면 간단히 **a** 파일에 문자 **A**를 넣고, 저장하면 됩니다.<br>
+Therefore, to return the letter A using the `cat` command, simply put the letter **A** in the **a** file and save it.<br>
 
 이제 파일의 크기를 확인해 봅시다.<br>
 Now, let's check the size of the file you've created.
@@ -104,6 +112,12 @@ total 8
 
 그럼 아무 텍스트 에디터에서 파일 a를 열고, 문자 **A**를 파일 **a** 에 저장해 봅시다.<br>
 Then, open the file **a** in any text editor and save the letter **A** in the file **a**.<br>
+
+<br>
+
+---
+
+#### 2. `cat` 과 `cat -e` 명령
 
 다시 `ls -l` 명령으로 파일의 크기를 확인해 보면, 글자 **A** 하나, 즉 1 바이트 크기의 데이터를 넣었을 뿐인데 파일의 크기가 2 바이트가 된 것을 볼 수 있습니다.<br>
 If you check the size of the file with the `ls -l` command once again, you will see that the size of the file has become 2 bytes even though you have only inserted one letter **A**, that is, 1 byte of data.<br>
