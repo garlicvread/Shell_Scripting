@@ -16,8 +16,8 @@
 
 ### TODO
 
-* `cat` 명령으로 내용을 확인하면 다음과 같이 `A` 를 반환하는 파일 `a` 를 만듭니다.<br>
-  Create a file called **a** that returns "**A**", whenever the command `cat` is used on it:<br><br>
+* `cat` 명령으로 내용을 확인했을 때, 다음과 같이 `A` 를 반환하는 파일 `a` 를 만듭니다.<br>
+  Create a file `a` that returns `A` when checked with the `cat` command as follows.<br>
 
 ```
 $ cat a

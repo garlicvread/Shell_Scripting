@@ -2,8 +2,16 @@
 
 <br>
 
+#### 1. 목표(Objectives)
+
+* `cat` 명령으로 내용을 확인했을 때, 다음과 같이 `A` 를 반환하는 파일 `a` 를 만듭니다.<br>
+  Create a file `a` that returns `A` when checked with the `cat` command as follows.<br>
+
+<br>
+
 ---
-#### 1. `touch` 명령
+
+#### 2. `touch` 명령
 
 터미널에서 직접 파일을 만들려면 `touch` 명령을 사용합니다.<br>
 To create a file directly in the terminal, use the `touch` command.
@@ -117,7 +125,7 @@ Then, open the file **a** in any text editor and save the letter **A** in the fi
 
 ---
 
-#### 2. `cat` 과 `cat -e` 명령
+#### 3. `cat` 과 `cat -e` 명령
 
 다시 `ls -l` 명령으로 파일의 크기를 확인해 보면, 글자 **A** 하나, 즉 1 바이트 크기의 데이터를 넣었을 뿐인데 파일의 크기가 2 바이트가 된 것을 볼 수 있습니다.<br>
 If you check the size of the file with the `ls -l` command once again, you will see that the size of the file has become 2 bytes even though you have only inserted one letter **A**, that is, 1 byte of data.<br>

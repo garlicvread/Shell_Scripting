@@ -1,5 +1,7 @@
 ### Answer for Exercise 02: Basic File Attributes Modification
 
+<br>
+
 #### 1. 목표(Objectives)
 
 `ls -l` 명령어로 확인했을 때 다음과 같은 결과를 얻을 수 있도록 파일의 속성을 변경합니다.<br>
