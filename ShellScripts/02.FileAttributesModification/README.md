@@ -27,4 +27,4 @@ $ man ls
 
 ---
 * [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/File)에서 `파일 속성 바꾸기 연습`의 내용을 확인할 수 있습니다.<br>
-  You can check the content of `File Attributes Modification Practice` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/File).
+  You can check the content of `File Attributes Modification Practice` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/File).<br>

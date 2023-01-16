@@ -29,6 +29,11 @@ Even network can be considered as a file.<br>
 그리고 유닉스의 파일 시스템의 파일은 기본적으로 `i-node`에 대한 링크입니다.<br>
 And files in Unix file system are basically links to `i-nodes`.<br>
 
+>참고: `i-node`는 `ls -i` 명령으로 확인할 수 있습니다.<br>
+> NOTE: You can check `i-node` with `ls -i` command.
+
+<br>
+
 하드 링크는 동일한 `i-node`에 대한 링크가 있는 다른 파일을 생성합니다.<br>
 A hard link creates another file that has a link to the same underlying `i-node`.<br>
 
@@ -66,4 +71,4 @@ In other words, a symbolic link can be considered as a shortcut in Windows syste
 
 ---
 * [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File)에서 `심볼릭 링크와 하드 링크 연습`의 내용을 확인할 수 있습니다.<br>
-  You can check the content of `File Attributes Modification Practice` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File).
+  You can read the content of `Excercise 03 - Symbolic(soft) Links and Hard Links` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File).
