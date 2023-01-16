@@ -34,12 +34,7 @@ However, when you look at the excercise03_01 and excercise03_03 files, you will 
 Finally, the number 2 in front of the user represents the number of links to the file.<br>
 
 따라서 excercise03_01, excercise03_03 파일은 하나의 `i-node`를 공유하고 있는 하드 링크라 가정할 수 있습니다.<br>
-Therefore, you can assume that the excercise03_01 and excercise03_03 files are hard links that share one `i-node`.
-
-> 참고: `i-node`와 관련된 정보는 [이 페이지](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks)를 참고하세요.<br>
-> NOTE: For more information on `i-node`, see [this page](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks).<br>
-
-<br>
+Therefore, you can assume that the excercise03_01 and excercise03_03 files are hard links that share one `i-node`.<br>
 
 한편, excercise03_02, excercise03_04 파일 뒤에는 `->` 기호가 붙어있습니다.<br>
 On the other hand, there is a `->` symbol behind the excercise03_02 and excercise03_04 files.

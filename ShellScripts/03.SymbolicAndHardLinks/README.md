@@ -21,6 +21,11 @@ Here, you will learn about `Symbolic Link` and `Hard Link`.<br>
 파일 시스템 아래에서 파일은 `i-node`로 표시됩니다.<br>
 Files are represented by `i-nodes` in the file system.<br>
 
+> 참고: `i-node`의 자세한 정보는 [이 페이지](https://en.wikipedia.org/wiki/Inode)를 참고하세요.<br>
+> NOTE: For more detailed information on `i-node`, see [this page](https://en.wikipedia.org/wiki/Inode).
+
+<br>
+
 디렉토리는 그럼 파일과 다른가? 할 수 있는데, 유닉스 계열의 운영체제에서는 ***디렉토리도 파일로 간주합니다***.<br>
 You may wonder if directories are different from files. In Unix-like operating systems, ***directories are also considered as files***.<br>
 
