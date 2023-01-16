@@ -25,8 +25,8 @@ To create a file directly in the terminal, use the `touch` command.
 먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는 디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
 First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01`, then use the `cd` command to move to the `ex01` directory.
 
-`cd` 명령은 `change directory`의 약자로, 디렉토리를 변경하는 명령입니다.<br>
-The `cd` command is an abbreviation for `change directory` and is a command to change directories.
+`cd` 명령은 `change directory`의 약자로, 현재 디렉토리를 변경하는 명령입니다.<br>
+The `cd` command is an abbreviation for `change directory` and is a command to change current directory.
 
 ```
 $ mkdir ex01
@@ -60,7 +60,7 @@ Use the `cat` command to check the contents of the `a` file.<br>
 First, let's check out the manual for the `cat` command.<br>
 
 ```
-man cat
+$ man cat
 ```
 <br>
 
@@ -157,4 +157,4 @@ Then you will see that a newline character **$** is automatically added after th
 <br>
 
 ---
-### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/File)
+### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/Files)

@@ -106,4 +106,4 @@ $ ln -s excercise03_03 excercise03_04
 <br>
 
 ---
-### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File)
+### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Files)
