@@ -239,14 +239,14 @@ $ stat createdFile
 `tar` 는 `tape archiver`의 약자로, 과거 테이프가 저장장치로 사용되던 시절, 자기 테이프에 파일을 백업하기 위해 만들어진 명령입니다.<br>
 The `tar` command is an abbreviation of `tape archiver`, and it was created to back up files to magnetic tape in the days when tape was used as a storage device.<br>
 
-`tar` 명령은 파일을 압축하거나 압축을 풀어주는 명령입니다.<br>
-The `tar` command compresses or decompresses files.<br>
+`tar` 명령은 파일 및 디렉토리를 한 파일로 묶거나, 묶음파일을 다시 원래대로 풀어주는 명령입니다.<br>
+The `tar` command is used to group files and directories into a single file, or to unpack a group file into its original form.<br>
 
-조금 더 정확히 말하자면, `tar` 명령은 파일을 하나의 파일로 묶어주는 명령으로, `gzip`이나 `bzip2` 등의 압축 프로그램과 함께 사용할 수도 있습니다.<br>
-To be more precise, the `tar` command groups files into a single file, and even can be used with `gzip` or `bzip2` compression programs.<br>
+`tar` 명령은 `gzip`이나 `bzip2` 등의 압축 프로그램과 함께 사용할 수도 있습니다.<br>
+The `tar` command can also be used with compression programs such as `gzip` or `bzip2`.<br>
 
-사용법은 간단해서, 다음과 같이 `tar` 명령 다음 아카이빙할 파일을 나열하면 됩니다.<br>
-The usage is simple, so you can just list the files you want to archive after the `tar` command.<br>
+사용법은 간단해서, 다음과 같이 `tar` 명령 다음 어떤 이름으로 묶을 것인지 지정하고, 아카이빙할 파일을 나열하면 됩니다.<br>
+The usage is simple, just specify what you want to call the group file, and list the files to archive after the `tar` command.<br>
 
 > 예시 (Example)
 ```
@@ -271,7 +271,7 @@ The options(flags) of the `tar` command are as follows.<br>
 일반적으로 `tar` 명령의 기본 옵션은 -cf 옵션입니다.<br>
 The default option of the `tar` command is the -cf option.<br>
 
-즉, `-c` 옵션으로 아카이빙할 파일 또는 디렉토리를을 하나의 파일로 묶겠다고 선언하고, `-f` 옵션으로 아카이빙할 파일을 지정하는 것입니다.<br>
+즉, `-c` 옵션으로 아카이빙할 파일 또는 디렉토리를 하나의 파일로 묶겠다고 선언하고, `-f` 옵션으로 아카이빙할 파일을 지정하는 것입니다.<br>
 That is, it declares that it will group the files or directories to be archived into a single file with the `-c` option, and specifies the file to be archived with the `-f` option.<br>
 
 그러나 `-cf` 옵션만으로 아카이빙하는 경우, 아카이빙의 대상이 되는 파일 또는 디렉토리의 속성이 유지되지 않습니다.<br>
@@ -307,4 +307,4 @@ So the usual option combination is `-cvpf` when archiving and `-xvpf` when extra
 <br>
 
 ---
-### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/File)
+### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttribsutesModification/Files)
