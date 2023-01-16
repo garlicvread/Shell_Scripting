@@ -78,5 +78,5 @@ There are many reasons, but the following benefits are available.
 <br>
 
 ---
-* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/04.DiffAndPatch/File)에서 `diff 명령과 patch 명령`의 내용을 확인할 수 있습니다.<br>
-  You can read the content of `Excercise 04 - Diff and Patch` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/04.DiffAndPatch/File).
+* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/04.DiffAndPatch/Files)에서 `diff 명령과 patch 명령`의 내용을 확인할 수 있습니다.<br>
+  You can read the content of `Excercise 04 - Diff and Patch` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/04.DiffAndPatch/Files).

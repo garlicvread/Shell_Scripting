@@ -70,5 +70,5 @@ In other words, a symbolic link can be considered as a shortcut in Windows syste
 <br>
 
 ---
-* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File)에서 `심볼릭 링크와 하드 링크 연습`의 내용을 확인할 수 있습니다.<br>
-  You can read the content of `Excercise 03 - Symbolic(soft) Links and Hard Links` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/File).
+* [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Files)에서 `심볼릭 링크와 하드 링크 연습`의 내용을 확인할 수 있습니다.<br>
+  You can read the content of `Excercise 03 - Symbolic(soft) Links and Hard Links` [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Files).
