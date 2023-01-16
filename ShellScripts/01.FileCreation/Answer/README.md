@@ -12,7 +12,7 @@ To create a file directly in the terminal, use the `touch` command.
 먼저 터미널을 실행한 뒤, `mkdir`명령, 즉 make directory 명령으로 `ex01` 이라는 디렉토리를 먼저 만들고, `cd` 명령으로 `ex01` 디렉토리로 이동합니다.<br>
 First, run the terminal, then use the `mkdir` command, that is, the make directory command to create a directory called `ex01`, then use the `cd` command to move to the `ex01` directory.
 
-```bash
+```
 $ mkdir ex01
 $ cd ex01
 ```
@@ -21,7 +21,7 @@ $ cd ex01
 현재 디렉토리에 어떤 파일 또는 디렉토리가 있는지 `ls` 명령어로 확인합니다.<br>
 Check what files or directories are in the current directory using the `ls` command.
 
-```bash
+```
 $ ls
 ```
 <br>
@@ -32,7 +32,7 @@ If nothing is displayed in the terminal window, it means that there are no files
 이제 `touch` 명령어를 사용하여 `a`라는 파일을 만들어 봅시다.<br>
 Now, let's use the `touch` command to create a file called `a`.<br>
 
-```bash
+```
 $ touch a
 ```
 <br>
@@ -131,5 +131,8 @@ Then you will see that a newline character **$** is automatically added after th
 
 > 참고: 개행 문자 **$** 는 터미널 종류와 운영체제(OS)에 따라 다를 수 있습니다.<br>
 > NOTE: The newline character **$** may differ depending on the type of terminal and OS(Operating System).<br>
+
+<br>
+
 ---
 ### [뒤로(Back)](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/01.FileCreation/File)

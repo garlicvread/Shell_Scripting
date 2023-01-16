@@ -41,8 +41,8 @@ If the target is a file, `-` will appear, and if it is a directory, `d` will app
 permission 부분은 각각 해당 타겟의 소유자, 그룹, 그 외의 사용자에게 부여할 권한을 나타냅니다.<br>
 The permission part indicates the permissions to be granted to the owner, group, and other users of the target.<br>
 
-r은 read(읽기) 권한, w는 write(쓰기) 권한, x는 execute(실행) 권한을 나타냅니다.<br>
-r means read permission, w means write permission, and x means execute permission.<br>
+`r`은 read(읽기) 권한, `w`는 write(쓰기) 권한, `x`는 execute(실행) 권한을 나타냅니다.<br>
+`r` means read permission, `w` means write permission, and `x` means execute permission.<br>
 
 > 참고: 실행 권한이란 읽기, 쓰기 외에 해당 파일을 실행할 수 있는 권한을 의미합니다.<br>
 > NOTE: The execution permission means that you have permission to execute the file in addition to reading and writing.<br>
@@ -66,16 +66,16 @@ Each permission can be represented in binary.<br>
 ```
 <br>
 
-r 권한은 2진법의 $2^2$ 자리에 1을, w 권한은 $2^1$ 자리에 1을, x 권한은 $2^0$ 자리에 1을 더한 값을 가집니다.<br>
-The r permission has a value of 1 in the $2^2$ place of the binary number, the w permission has a value of 1 in the $2^1$ place, and the x permission has a value of 1 in the $2^0$ place.<br>
+`r` 권한은 2진법의 $2^2$ 자리에 1을, `w` 권한은 $2^1$ 자리에 1을, `x` 권한은 $2^0$ 자리에 1을 더한 값을 가집니다.<br>
+The `r` permission has a value of 1 in the $2^2$ place of the binary number, the `w` permission has a value of 1 in the $2^1$ place, and the `x` permission has a value of 1 in the $2^0$ place.<br>
 
 예컨대 rwx 권한은 $2^2 + 2^1 + 2^0 = 7$ 이므로 2진법으로 111이 됩니다.<br>
 For example, rwx permission is $2^2 + 2^1 + 2^0 = 7$, so it becomes 111 in binary.<br>
 
-이렇듯, 권한을 표시하는 방법에는 r, w, x라는 영문자를 이용한 방법과 2진법을 이용한 방법 두 가지가 있습니다.<br>
+이렇듯, 권한을 표시하는 방법에는 `r`, `w`, `x`라는 영문자를 이용한 방법과 2진법을 이용한 방법 두 가지가 있습니다.<br>
 As you can see, there are two ways to display permissions: one using the English letters r, w, and x, and the other using binary.<br>
 
-그래서 권한을 더하고 뺄 때 사용할 수 있는 방법도 r, w, x를 이용한 방법과 2진법을 이용한 방법 두 가지가 있습니다.<br>
+그래서 권한을 더하고 뺄 때 사용할 수 있는 방법도 `r`, `w`, `x`를 이용한 방법과 2진법을 이용한 방법 두 가지가 있습니다.<br>
 So there are two ways to add and subtract permissions: one using the English letters r, w, and x, and the other using binary.<br>
 
 다음은 권한의 종류를 나타내는 표입니다.<br>
@@ -94,11 +94,11 @@ The following table shows the types of permissions.<br>
 |  0  | none					| 000 | --- |
 <br>
 
-하지만 보통은 2진법을 이용한 방법이 보편적으로 더 많이 사용되는 편이기 때문에 여기서는 2진법을 이용하여 파일 또는 디렉토리에 대한 권한을 변경하는 방법을 알아보겠습니다.<br>
+하지만 2진법을 이용한 방법이 보편적으로 더 많이 사용되는 편이기 때문에 여기서는 2진법을 이용하여 파일 또는 디렉토리에 대한 권한을 변경하는 방법을 알아보겠습니다.<br>
 However, since the binary method is more commonly used, we will look at how to change the permissions of a file or directory using the binary method here.<br>
 
-chmod의 사용 방법은 아주 간단합니다.<br>
-The way to use chmod is very simple.<br>
+`chmod` 명령의 사용 방법은 아주 간단합니다.<br>
+The way to use `chmod` command is very simple.<br>
 
 파일에 접근할 수 있는 모든 사용자에게 rwx 권한을 부여하고 싶다면 다음과 같이 입력하면 됩니다.<br>
 If you want to give rwx permission to all users who can access the file, just type the following.<br>
