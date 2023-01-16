@@ -125,6 +125,8 @@ For more detail read `man` entry of `chmod`:
 $ man chmod
 ```
 
+<br>
+
 ---
 #### 3. 파일 사이즈 변경(Change the file size): 40 bytes
 
