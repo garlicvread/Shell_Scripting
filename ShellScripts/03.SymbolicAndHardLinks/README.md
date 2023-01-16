@@ -1,7 +1,5 @@
 # Exercise 03: Symbolic and Hard Links
 
----
-
 ## Basic Information
 
 | Exercise 03                    |

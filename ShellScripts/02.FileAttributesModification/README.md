@@ -1,7 +1,5 @@
 # 02. File Attributes Modification
 
----
-
 ## Basic Information
 
 |              Exercise 02              |

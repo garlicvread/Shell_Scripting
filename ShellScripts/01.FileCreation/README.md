@@ -1,7 +1,5 @@
 # 01. File Creation
 
----
-
 ## Basic Information
 
 | Exercise 01              |
