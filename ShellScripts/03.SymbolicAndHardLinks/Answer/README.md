@@ -98,8 +98,8 @@ $ ln -s excercise03_03 excercise03_04
 
 #### 4. 기타(Others)
 
-* 파일의 권한 변경 및 속성 변경은 [Excercise02](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/Answer)에서 다루었습니다.<br>
-  File permission and attribute changes were covered in [Excercise02](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/Answer).<br>
+* 파일 및 디렉토리의 권한 변경 및 속성 변경은 [Excercise02](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/Answer)에서 다루었습니다.<br>
+  File and directory permission and attribute changes were covered in [Excercise02](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/02.FileAttributesModification/Answer).<br>
 
 <br>
 
