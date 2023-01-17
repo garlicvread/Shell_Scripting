@@ -51,16 +51,16 @@ This process can be represented by the following figure.<br>
 그리고 패치 파일은 다음과 같이 만들어진다고 생각하면 기억하기 쉽습니다.<br>
 And you can remember that the patch file is created as follows.<br>
 
-┌───────────┐   ┌───────────┐   ┌───────────┐
-│ Version B │ - │ Version A │ = │   Patch   │
-└───────────┘   └───────────┘   └───────────┘
+┌───────────┐   ┌───────────┐   ┌───────────┐<br>
+│ Version B │ - │ Version A │ = │   Patch   │<br>
+└───────────┘   └───────────┘   └───────────┘<br>
 
 적용된 패치를 제거하는 과정은 다음과 같이 생각하면 좋습니다.<br>
 The process of removing the applied patch is as follows.<br>
 
-┌───────────┐   ┌───────────┐   ┌───────────┐
-│ Version B │ - │   Patch   │ = │ Version A │
-└───────────┘   └───────────┘   └───────────┘
+┌───────────┐   ┌───────────┐   ┌───────────┐<br>
+│ Version B │ - │   Patch   │ = │ Version A │<br>
+└───────────┘   └───────────┘   └───────────┘<br>
 
 <br>
 
