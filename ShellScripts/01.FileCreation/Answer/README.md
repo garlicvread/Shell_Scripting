@@ -148,10 +148,8 @@ This is because, in the Unix / Linux family operating system (OS), the `EOF (End
 > `EOF`를 문자로 착각하는 이유는 C 표준 라이브러리의 `getchar` 명령 등을 사용하여 파일을 읽을 때, 그 명령이 `파일 끝(EOF)` 조건이 발생했음을 나타내기 위해 미리 정해진 기호를 반환하기 때문입니다.<br>
 > The reason why `EOF` is mistaken for a character is that when reading a file using the `getchar` (or whatever) command of the C standard library, the command returns a symbol that has been pre-defined to indicate that the `End of File` condition has occurred.<br>
 
-<br>
-
-`cat -e` 명령으로는 개행 문자도 확인할 수 있습니다.<br>
-You can also check the newline character with the `cat -e` command.<br>
+개행 문자는 `cat -e` 명령으로 확인할 수 있습니다.<br>
+You can check the new line character with the `cat -e` command.<br>
 
 ```
 $ cat -e a
@@ -159,11 +157,31 @@ A$
 ```
 <br>
 
-그러면 글자 **A** 뒤에 개행 문자 **$** 가 자동으로 추가된 것을 볼 수 있습니다.<br>
-Then you will see that a newline character **$** is automatically added after the letter **A**.<br>
+글자 **A** 뒤에 개행 문자 **$** 가 자동으로 추가된 것을 볼 수 있습니다.<br>
+You will see that a newline character **$** is automatically added after the letter **A**.<br>
 
-> 참고: 개행 문자 **$**, 그리고 EOF를 나타내는 기호 **%** 는 운영체제(OS)에 따라 다를 수 있습니다.<br>
-> NOTE: The newline character **$** and the symbol **%** that indicates EOF may vary depending on the operating system (OS).<br>
+<br>
+
+---
+
+<br>
+
+> 참고: 유닉스/리눅스 계열 운영체제(OS)에서 파일에 값이 존재하는 경우 그 파일의 가장 마지막에 `EOF(End Of File)` 값을 자동으로 추가합니다.<br>
+> Note: In Unix / Linux-based operating systems (OS), when a value exists in a file, the `EOF (End Of File)` value is automatically added to the end of the file.<br>
+> 
+> `EOF`를 문자로 착각하는 경우도 있는데, `EOF`는 문자가 아니라, ***파일의 끝*** 이라는 상태를 나타내는 특수한 값입니다.<br>
+> There is also a case where `EOF` is mistaken for a character, but `EOF` is not a character but a special value that indicates the status of ***the end of the file***.<br>
+>
+> `EOF`를 문자로 착각하는 이유는 C 표준 라이브러리의 `getchar` 명령 등을 사용하여 파일을 읽을 때, 그 명령이 `파일 끝(EOF)` 조건이 발생했음을 나타내기 위해 미리 정해진 기호를 반환하기 때문입니다.<br>
+> The reason why `EOF` is mistaken for a character is that when reading a file using the `getchar` (or whatever) command of the C standard library, the command returns a symbol that has been pre-defined to indicate that the `End of File` condition has occurred.<br>
+
+<br>
+
+> 참고: `cat -e` 명령으로 `EOF`도 확인할 수 있습니다.<br>
+> Note: You can also check `EOF` with the `cat -e` command.<br>
+> 
+> 개행 문자 **$** 와 EOF를 나타내는 문자 **%** 는 운영체제(OS)에 따라 다를 수 있습니다.<br>
+> Newline characters **$** and the character **%** that represent EOF may vary depending on the operating system (OS).<br>
 
 <br>
 
