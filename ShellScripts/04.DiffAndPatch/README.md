@@ -33,13 +33,34 @@ Anyways, both commands can be used separately, but they are usually learned toge
 `diff` command compares (or calculates) two files based on rows and shows the differences between them.<br>
 
 이때 두 파일의 다른 점을 `patch` 라고 합니다.<br>
-In this case, the difference between the two files is called `patch`.<br>
+Here, the difference between the two files is called `patch`.<br>
 
 방금 이야기한 `patch`는 명령어 `patch`와는 다르니 앞으로 혼란이 없도록 차이점이라 하겠습니다.<br>
 The `patch` just mentioned is different from the `patch` command, so I will call it a difference from now on to avoid confusion.<br>
 
 우리가 `diff` 명령으로 찾아낸 두 파일 간의 차이점인 `patch`를 `patch` 명령으로 다른 파일에 적용할 수 있습니다.<br>
 We can apply the `patch`, which is the difference between the two files found by the `diff` command, to another file using the `patch` command.<br>
+
+이 과정을 그림으로 표현하면 다음과 같습니다.<br>
+This process can be represented by the following figure.<br>
+
+┌───────────┐   ┌───────────┐   ┌───────────┐
+│ Version A │ + │   Patch   │ = │ Version B │
+└───────────┘   └───────────┘   └───────────┘
+
+그리고 패치 파일은 다음과 같이 만들어진다고 생각하면 기억하기 쉽습니다.<br>
+And you can remember that the patch file is created as follows.<br>
+
+┌───────────┐   ┌───────────┐   ┌───────────┐
+│ Version B │ - │ Version A │ = │   Patch   │
+└───────────┘   └───────────┘   └───────────┘
+
+적용된 패치를 제거하는 과정은 다음과 같이 생각하면 좋습니다.<br>
+The process of removing the applied patch is as follows.<br>
+
+┌───────────┐   ┌───────────┐   ┌───────────┐
+│ Version B │ - │   Patch   │ = │ Version A │
+└───────────┘   └───────────┘   └───────────┘
 
 <br>
 
