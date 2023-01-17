@@ -44,23 +44,17 @@ We can apply the `patch`, which is the difference between the two files found by
 이 과정을 그림으로 표현하면 다음과 같습니다.<br>
 This process can be represented by the following figure.<br>
 
-┌───────────┐   ┌───────────┐   ┌───────────┐
-│ Version A │ + │   Patch   │ = │ Version B │
-└───────────┘   └───────────┘   └───────────┘
+![A+Patch=B.png](Files/Resources/Images/A+Patch=B.png)<br>
 
 그리고 패치 파일은 다음과 같이 만들어진다고 생각하면 기억하기 쉽습니다.<br>
 And you can remember that the patch file is created as follows.<br>
 
-┌───────────┐   ┌───────────┐   ┌───────────┐<br>
-│ Version B │ - │ Version A │ = │   Patch   │<br>
-└───────────┘   └───────────┘   └───────────┘<br>
+![B-A=Patch.png](Files/Resources/Images/B-A=Patch.png)<br>
 
 적용된 패치를 제거하는 과정은 다음과 같이 생각하면 좋습니다.<br>
 The process of removing the applied patch is as follows.<br>
 
-┌───────────┐   ┌───────────┐   ┌───────────┐<br>
-│ Version B │ - │   Patch   │ = │ Version A │<br>
-└───────────┘   └───────────┘   └───────────┘<br>
+![B-Patch=A.png](Files/Resources/Images/B-Patch=A.png)
 
 <br>
 
