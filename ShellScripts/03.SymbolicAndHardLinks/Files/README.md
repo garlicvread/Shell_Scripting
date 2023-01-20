@@ -44,4 +44,4 @@ lrwxrwxrwx  1 raymond  staff   14 Jan 15 21:13 excercise03_04 -> excercise03_03
   You can read the explanation [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks/Answer).<br><br>
 
 * [여기](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks)에서 이 연습에 필요한 기본 정보를 확인할 수 있습니다.<br>
-  You can read the basic information related this excercise [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks).
+  You can read the basic information related this exercise [here](https://github.com/garlicvread/Shell_Scripting/tree/main/ShellScripts/03.SymbolicAndHardLinks).
