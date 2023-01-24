@@ -2,11 +2,11 @@
 
 ### Basic Information
 
-| Exercise 04                    |
-|--------------------------------|
-| Files to turn in : result					 |
-| Allowed functions : None				   |
-| Notes : n/a							             |
+| Exercise 04                   |
+|-------------------------------|
+| Files to create : result					 |
+| Allowed functions : None				  |
+| Notes : n/a							            |
 
 <br>
 
